@@ -1,0 +1,1 @@
+Essse repositorio é exclusivamente para jogar todos os arquivos que edito nas aulas da gamakay hiringcoders.
