@@ -64,4 +64,4 @@ const livros = [
     }
 ]
 
-console.table(livros)
+module.exports = livros
