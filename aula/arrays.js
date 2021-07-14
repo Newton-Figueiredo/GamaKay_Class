@@ -1,4 +1,10 @@
+let test = function(){
+    const name;
+    let fullName = name + "" santos"";
+    console.log(fullName);
+    }
 
+/*
 const listaAlunos = ["aluno1","aluno2" ,"aluno3" ,"aluno4" ,"aluno5" ,"aluno6","aluno7"]
 
 // operador spread (...)
@@ -33,3 +39,4 @@ const somador = listaNumeros.reduce((indice1,indice2) => indice1+indice2,0)
 console.log(somador)
 
 
+*/

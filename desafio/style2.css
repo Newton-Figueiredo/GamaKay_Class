@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: linear-gradient(45deg,#1c2027, #3b1443ec ) ; 
+    color: whitesmoke;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+
+}   
+
+main{
+    /*width: 50vw;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px #72619144;
+    width: 1600px;
+    
+}
+
+main .cardPai{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+
+}
+
+main h1 {
+color: rgb(156, 96, 213);
+font-size: 4rem;
+margin-left: 30px;
+font-family: 'Paytone One', sans-serif;
+
+
+}
+
+main .bottom02 img {
+    width: 36px;
+    margin-left: 3rem;
+
+}
+
+main .bottom02  {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main .bottom02 a:first-child img  {
+ 
+    margin-left: 0rem;
+
+}
+
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input{
+background-color: #161923;
+width: 300px;
+height: 50px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: ghostwhite;
+font-size: 1rem;
+border: 1px solid #040b18;
+border-radius: 8px;
+
+}
+
+main form input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 2rem;
+    border: none;
+    background: #6c63ff;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover{
+    background: #5952d4;
+    
+}
+
+main .middle02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main .middle02 span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(248, 248, 255, 0.3);
+    position: relative;
+
+
+}
+
+main .middle02 span::before, main .middle02 span::after{
+    position: absolute;
+    content: ' ';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(128, 128, 128, 0.309);
+}
+
+main .middle02 span::after{
+    left: 50px;
+}
+
+.card02 {
+    background: linear-gradient(90deg,#1b2029, #1c2b30db ) ; 
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px #72619144;
+    width: 500px;
+
+}
+
+.card01 {
+   
+    
+    width: 800px;
+
+}
+
+.middle01{
+   /* margin-left: 40px;*/
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: ghostwhite;
+   
+}
+
+.titulo img{
+    width: 100px;
+   
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    
+    
+
+}
+
+.tituloCard02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px ;
+}
+
